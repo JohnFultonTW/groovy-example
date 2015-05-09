@@ -5,15 +5,17 @@
  * @author john, @date 9/05/15 11:10 PM
  */
 
-import spock.lang.Specification
+import org.junit.Test
 
-class LibraryTest extends Specification{
-    def "someLibraryMethod returns true"() {
-        setup:
+class LibraryTest {
+    @Test
+    def void "someLibraryMethod returns true"() {
         Library lib = new Library()
-        when:
         def result = lib.someLibraryMethod()
-        then:
-        result == true
+	def map = 
+		[
+			theResult: result
+		]
+        assert map.theResult == false;
     }
 }
