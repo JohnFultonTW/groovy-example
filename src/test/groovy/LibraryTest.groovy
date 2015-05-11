@@ -16,6 +16,6 @@ class LibraryTest {
 		[
 			theResult: result
 		]
-        assert map.theResult == false;
+        assert map.theResult == true;
     }
 }
