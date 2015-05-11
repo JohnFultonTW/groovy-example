@@ -5,7 +5,7 @@
  * @author john, @date 9/05/15 11:10 PM
  */
 class Library {
-    boolean someLibraryMethod() {
-        true
+    def importantMap() {
+        [trueValue: false]
     }
 }

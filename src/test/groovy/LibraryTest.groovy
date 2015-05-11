@@ -11,11 +11,6 @@ class LibraryTest {
     @Test
     def void "someLibraryMethod returns true"() {
         Library lib = new Library()
-        def result = lib.someLibraryMethod()
-	def map = 
-		[
-			theResult: result
-		]
-        assert map.theResult == true;
+        assert lib.importantMap().trueValue == true
     }
 }

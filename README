@@ -1,0 +1,10 @@
+# Things to go through
+- Creating a new project with Gradle
+- Assertions
+- Inline list, map declaration
+- Object instantiation
+    - What happens with no privacy modifier?
+- Manipulation of collections
+- Java interop
+- Deciding what method to run: compile time vs runtime
+- Groovy strings
