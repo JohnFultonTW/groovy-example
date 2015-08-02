@@ -33,19 +33,30 @@
 ------------------
 
 - Install GVM, Groovy and Gradle. Do gradle init (Fendy)
-    gradle init --type groovy-library
+
+  http://gvmtool.net/
+  curl -s get.gvmtool.net | bash
+
+  gradle init --type groovy-library
+
 - Copy java class over to Groovy project and rename it to .groovy (Fendy)
     - Keep old java class. Gradle can co-compile Java & Groovy
 
     - Java class to include:
     - Show POJO. Convert to POGO (Fendy)
         - Talk about default access. Java is package, Groovy is private with getter/setter
-    - Take a list of key value pair and create a map (John)
-    - Taking a map and instansiating an object from it (Fendy)
         - Talk about Groovy aliases for getting/setting. object.thing -> object.getThing()
+
+    - Take a list of key value pair and create a map (John)
+
+    - Taking a map and instansiating an object from it (Fendy)
+
     - Finding elemens in a collection matching a condition (John)
         - Talk about closure in Groovy. Functions as first class citizens
+
     - Generate formatted string "Blah blah {number/object}" (Fendy)
+
+
     - A demo of run vs compile time method calls (John)
         - Lead into performance discussion/comparison
 
